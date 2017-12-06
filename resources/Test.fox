@@ -1,0 +1,28 @@
+init a
+init b
+push_num 156
+load a
+push_num 69
+load b
+push_var a
+push_num 0
+ne
+push_var b
+push_num 0
+ne
+and
+if 28
+push_var a
+push_var b
+gt
+if 23
+push_var a
+push_var b
+mod
+load a
+jump 27
+push_var b
+push_var a
+mod
+load b
+jump 6
